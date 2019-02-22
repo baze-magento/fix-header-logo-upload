@@ -1,0 +1,14 @@
+{
+  "name": "baze/fix-header-logo-upload",
+  "description": "Fix issue #18688 Unable to upload Logo",
+  "require": {
+    "php": "~5.6.0|~7.0.0|~7.1.0|~7.2.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Baze\\FixHeaderLogoUpload\\": ""
+    }
+  }
+}
